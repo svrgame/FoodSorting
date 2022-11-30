@@ -1,3 +1,4 @@
+// Screen resolution ratio's 
 const verticalRatio = 19.5 / 9;
 const horizontalRatio = 9 / 16;
 var aspectRatio;
@@ -5,13 +6,18 @@ var aspectRatio;
 var appInput = null;
 var sound = true;//use to turn all sound on or off
 
+// time in between rounds
 const loadDelay = 10000; // 10 seconds;
 var bgDuration = (loadDelay / 1000) - 0.5
+// holds the load screen image < from spritePool 
 var loadScreen = null;
+// color to clear the screen when rendering 
 const clearColor = new Color(207, 159, 255);
 var screen = null;
 var game = null;
 var currentGame = 0;
+
+
 //global objects 
 var spritePool = {
   currentLoad: null,
@@ -30,6 +36,7 @@ var audioFile = {
   complete: null,
   loadingScreen: null
 };
+// Loads in all files , promise all before setting up screen canvas
 window.onload = window['loadAssets'];
 function loadAssets() {
   aspectRatio = (window.innerWidth > window.innerHeight) ? horizontalRatio : verticalRatio;
@@ -63,6 +70,7 @@ function loadAssets() {
   filePromises.push(audioFile.complete);
   Promise.all(filePromises).then(setUpAndInit());
 }
+//Set up canvases 1 for the game 1 for the loading screen
 function setUpAndInit() {
   var width = window.innerWidth * .98;
   var height = width * aspectRatio;
@@ -72,6 +80,7 @@ function setUpAndInit() {
   loadScreen.hide();
   appInput = new Input(screen);
 
+// scale dependent on  screen increments
   spritePool.shareLoad.scale(28, 28);
   spritePool.wasteLoad.scale(28, 28);
   spritePool.sortLoad.scale(28, 28);
@@ -123,7 +132,7 @@ function debugRender() {
     verts.forEach(p => {
       screen.drawPoint(p, vertColor);
     });
-  })
+  }); 
   // game.itemList.forEach(obj => {
   //   var verts = obj.getVerts();
   //   verts.forEach(p => {
@@ -141,7 +150,7 @@ function render() {
     return;
   }
   if (game != null) {
-    //debugRender();
+    //debugRender(); // if wanting to see vertices, make sure to hide the background images 
     game.staticList.forEach(sp => { screen.drawSprite(sp); });
     game.itemList.forEach(sp => { screen.drawSprite(sp); });
   }
@@ -235,7 +244,7 @@ function hideLoadScreen() {
     spritePool.currentLoad = null
   }, loadDelay);
 }
-// returns the next game 
+// returns the next game, loads in the loading screen , and possibly redirects to other page
 function getNextGame() {
   if (currentGame == -1) {
     currentGame = 0;

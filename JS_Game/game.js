@@ -207,7 +207,7 @@ class CertGame extends Game {
   }
 }
 
-//removes items based on sprite.sprite value
+//removes items based on sprite.sprite value, used for removing items when correctly sorted 
 function itemRemove(arr, value) {
   return arr.filter(function(ele) {
     return ele.sprite != value;

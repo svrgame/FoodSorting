@@ -16,10 +16,6 @@ const clearColor = new Color(207, 159, 255);
 var screen = null;
 var game = null;
 var currentGame = 0;
-<<<<<<< HEAD
-=======
-
->>>>>>> parent of f7c384c ( updating images is easier now)
 
 //global objects 
 var spritePool = {

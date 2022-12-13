@@ -39,7 +39,7 @@ var audioFile = {
 window.onload = window['loadAssets'];
 function loadAssets() {
   aspectRatio = (window.innerWidth > window.innerHeight) ? horizontalRatio : verticalRatio;
-  spritePool.shareLoad.addImg("Images/loadShare.png");
+  spritePool.shareLoad.addImg("Images/"+_loadShareImg);
   spritePool.vShareLoad.addImg("Images/VloadShare.png");
   spritePool.wasteLoad.addImg("Images/loadWaste.png");
   spritePool.vWasteLoad.addImg("Images/VloadWaste.png");

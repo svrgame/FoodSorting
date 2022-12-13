@@ -7,8 +7,8 @@ home,body{
 canvas{
   margin: 0;
   position: absolute;
-  left: 0%;
-  top: 0;
+  left: 1%;
+  top: 2%;
   border: 2px solid red;
 }
 

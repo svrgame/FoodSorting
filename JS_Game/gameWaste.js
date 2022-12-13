@@ -30,28 +30,28 @@ class VFoodWaste extends Game {
       pizza: new Obj(),
       plastic: new Obj(),
     }
-    this.objPool.cafeteria.addImg(`Images/${_mobile_backWallImg}`);
-    this.objPool.pBar.addImg(`Images/${_pBarImg}`);
-    this.objPool.pFill.addImg(`Images/${_pFillImg}`);
-    this.objPool.tray.addImg(`Images/${_trayImg}`);
-    this.objPool.station.addImg(`Images/${_wasteStationImg}`);
-    this.objPool.pLogo.addImg(`Images/${_pLogoImg}`);
+    this.objPool.cafeteria.addImg("Images/VbackWall.png");
+    this.objPool.pBar.addImg("Images/pBar.png");
+    this.objPool.pFill.addImg("Images/pFill.png");
+    this.objPool.tray.addImg("Images/tray.png");
+    this.objPool.station.addImg("Images/wasteStation.png");
+    this.objPool.pLogo.addImg("Images/pLogo.png");
 
-    this.objPool.apple.addImg(`Images/${_e_appleImg}`);
-    this.objPool.banana.addImg(`Images/${_e_bananaImg}`);
-    this.objPool.chipBag.addImg(`Images/${_e_chipsImg}`);
-    this.objPool.milkCarton.addImg(`Images/${_e_milkImg}`);
-    this.objPool.milkPuddle.addImg(`Images/${_e_milkPImg}`);
-    this.objPool.chCarton.addImg(`Images/${_e_chMilkImg}`);
-    this.objPool.chPuddle.addImg(`Images/${_e_chMilkPImg}`);
-    this.objPool.straw.addImg(`Images/${_strawImg}`);
-    this.objPool.burrito.addImg(`Images/${_e_burritoImg}`);
-    this.objPool.orangePeel.addImg(`Images/${_orangePeelImg}`);
-    this.objPool.spork.addImg(`Images/${_sporkImg}`);
-    this.objPool.napkin.addImg(`Images/${_napkinImg}`);
-    this.objPool.pizzaIn.addImg(`Images/${_e_pizza_cImg}`);
-    this.objPool.pizza.addImg(`Images/${_e_pizzaImg}`);
-    this.objPool.plastic.addImg(`Images/${_plasticImg}`);
+    this.objPool.apple.addImg("Images/e_apple.png");
+    this.objPool.banana.addImg("Images/e_banana.png");
+    this.objPool.chipBag.addImg("Images/e_chips.png");
+    this.objPool.milkCarton.addImg("Images/e_milk.png");
+    this.objPool.milkPuddle.addImg("Images/e_milkP.png");
+    this.objPool.chCarton.addImg("Images/e_chMilk.png");
+    this.objPool.chPuddle.addImg("Images/e_chMilkP.png");
+    this.objPool.straw.addImg("Images/straw.png");
+    this.objPool.burrito.addImg("Images/e_burrito.png");
+    this.objPool.orangePeel.addImg("Images/orangePeel.png");
+    this.objPool.spork.addImg("Images/spork.png");
+    this.objPool.napkin.addImg("Images/napkin.png");
+    this.objPool.pizzaIn.addImg("Images/e_pizza_c.png");
+    this.objPool.pizza.addImg("Images/e_pizza.png");
+    this.objPool.plastic.addImg("Images/plastic.png");
 
     var filePromises = [];
     filePromises.push(this.objPool.cafeteria.sprite);
@@ -233,28 +233,28 @@ class FoodWaste extends Game {
       pizza: new Obj(),
       plastic: new Obj(),
     }
-    this.objPool.cafeteria.addImg(`Images/${_backWallImg}`);
-    this.objPool.pBar.addImg(`Images/${_pBarImg}`);
-    this.objPool.pFill.addImg(`Images/${_pFillImg}`);
-    this.objPool.tray.addImg(`Images/${_trayImg}`);
-    this.objPool.station.addImg(`Images/${_wasteStationImg}`);
-    this.objPool.pLogo.addImg(`Images/${_pLogoImg}`);
+    this.objPool.cafeteria.addImg("Images/backWall.png");
+    this.objPool.pBar.addImg("Images/pBar.png");
+    this.objPool.pFill.addImg("Images/pFill.png");
+    this.objPool.tray.addImg("Images/tray.png");
+    this.objPool.station.addImg("Images/wasteStation.png");
+    this.objPool.pLogo.addImg("Images/pLogo.png");
 
-    this.objPool.apple.addImg(`Images/${_e_appleImg}`);
-    this.objPool.banana.addImg(`Images/${_e_bananaImg}`);
-    this.objPool.chipBag.addImg(`Images/${_e_chipsImg}`);
-    this.objPool.milkCarton.addImg(`Images/${_e_milkImg}`);
-    this.objPool.milkPuddle.addImg(`Images/${_e_milkPImg}`);
-    this.objPool.chCarton.addImg(`Images/${_e_chMilkImg}`);
-    this.objPool.chPuddle.addImg(`Images/${_e_chMilkPImg}`);
-    this.objPool.straw.addImg(`Images/${_strawImg}`);
-    this.objPool.burrito.addImg(`Images/${_e_burritoImg}`);
-    this.objPool.orangePeel.addImg(`Images/${_orangePeelImg}`);
-    this.objPool.spork.addImg(`Images/${_sporkImg}`);
-    this.objPool.napkin.addImg(`Images/${_napkinImg}`);
-    this.objPool.pizzaIn.addImg(`Images/${_e_pizza_cImg}`);
-    this.objPool.pizza.addImg(`Images/${_e_pizzaImg}`);
-    this.objPool.plastic.addImg(`Images/${_plasticImg}`);
+    this.objPool.apple.addImg("Images/e_apple.png");
+    this.objPool.banana.addImg("Images/e_banana.png");
+    this.objPool.chipBag.addImg("Images/e_chips.png");
+    this.objPool.milkCarton.addImg("Images/e_milk.png");
+    this.objPool.milkPuddle.addImg("Images/e_milkP.png");
+    this.objPool.chCarton.addImg("Images/e_chMilk.png");
+    this.objPool.chPuddle.addImg("Images/e_chMilkP.png");
+    this.objPool.straw.addImg("Images/straw.png");
+    this.objPool.burrito.addImg("Images/e_burrito.png");
+    this.objPool.orangePeel.addImg("Images/orangePeel.png");
+    this.objPool.spork.addImg("Images/spork.png");
+    this.objPool.napkin.addImg("Images/napkin.png");
+    this.objPool.pizzaIn.addImg("Images/e_pizza_c.png");
+    this.objPool.pizza.addImg("Images/e_pizza.png");
+    this.objPool.plastic.addImg("Images/plastic.png");
 
     var filePromises = [];
     filePromises.push(this.objPool.cafeteria.sprite);

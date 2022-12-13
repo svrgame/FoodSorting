@@ -35,30 +35,30 @@ class VShareAndTake extends Game {
       chips: new Obj(),
       cereal: new Obj(),
     };
-    this.objPool.pBar.addImg(`Images/${_pBarImg}`);
-    this.objPool.pFill.addImg(`Images/${_pFillImg}`);
-    this.objPool.pLogo.addImg(`Images/${_pLogoImg}`);
-    this.objPool.cafeteria.addImg(`Images/${_mobile_cafeteriaImg}`);
-    this.objPool.shareStation.addImg(`Images/${_shareStationImg}`);
-    this.objPool.tray.addImg(`Images/${_trayImg}`);
-    this.objPool.apple.addImg(`Images/${_appleImg}`);
-    this.objPool.banana.addImg(`Images/${_bananaImg}`);
-    this.objPool.carrots.addImg(`Images/${_carrotsImg}`);
-    this.objPool.celery.addImg(`Images/${_celeryImg}`);
-    this.objPool.orange.addImg(`Images/${_orangeImg}`);
-    this.objPool.milk.addImg(`Images/${_milkImg}`);
-    this.objPool.chocolate.addImg(`Images/${_chocolateImg}`);
-    this.objPool.cheeseStick.addImg(`Images/${_cheeseStickImg}`);
-    this.objPool.creamCheese.addImg(`Images/${_creamcheeseImg}`);
-    this.objPool.yogurt.addImg(`Images/${_yogurtImg}`);
-    this.objPool.burrito.addImg(`Images/${_burritoImg}`);
-    this.objPool.pizza.addImg(`Images/${_pizzaImg}`);
-    this.objPool.corndog.addImg(`Images/${_corndogImg}`);
-    this.objPool.burgers.addImg(`Images/${_burgersImg}`);
-    this.objPool.sandwich.addImg(`Images/${_sandwichImg}`);
-    this.objPool.bagel.addImg(`Images/${_bagelImg}`);
-    this.objPool.chips.addImg(`Images/${_chipsImg}`);
-    this.objPool.cereal.addImg(`Images/${_cerealImg}`);
+    this.objPool.pBar.addImg("Images/pBar.png");
+    this.objPool.pFill.addImg("Images/pFill.png");
+    this.objPool.pLogo.addImg("Images/pLogo.png");
+    this.objPool.cafeteria.addImg("Images/Vcafeteria.png");
+    this.objPool.shareStation.addImg("Images/shareStation.png");
+    this.objPool.tray.addImg("Images/tray.png");
+    this.objPool.apple.addImg("Images/apple.png");
+    this.objPool.banana.addImg("Images/banana.png");
+    this.objPool.carrots.addImg("Images/carrots.png");
+    this.objPool.celery.addImg("Images/celery.png");
+    this.objPool.orange.addImg("Images/orange.png");
+    this.objPool.milk.addImg("Images/milk.png");
+    this.objPool.chocolate.addImg("Images/chocolate.png");
+    this.objPool.cheeseStick.addImg("Images/cheeseStick.png");
+    this.objPool.creamCheese.addImg("Images/creamcheese.png");
+    this.objPool.yogurt.addImg("Images/yogurt.png");
+    this.objPool.burrito.addImg("Images/burrito.png");
+    this.objPool.pizza.addImg("Images/pizza.png");
+    this.objPool.corndog.addImg("Images/corndog.png");
+    this.objPool.burgers.addImg("Images/burgers.png");
+    this.objPool.sandwich.addImg("Images/sandwich.png");
+    this.objPool.bagel.addImg("Images/bagel.png");
+    this.objPool.chips.addImg("Images/chips.png");
+    this.objPool.cereal.addImg("Images/cereal.png");
 
     // ADD OBJECT.SPRITE for OBJ WITH IMAGES
     var filePromises = [];
@@ -166,7 +166,6 @@ class VShareAndTake extends Game {
     this.staticList.push(otherFoodBin);
     this.staticList.push(hotFoodBin);
     // ======== Set Up Tags   and add to item pool===========
-    this.zoomInList.push(this.objPool.shareStation);
     this.objPool.apple.changeTag(TAG.SHARE_FV);
     this.itemPool.push(this.objPool.apple);
     this.objPool.banana.changeTag(TAG.SHARE_FV);
@@ -252,30 +251,30 @@ class ShareAndTake extends Game {
       chips: new Obj(),
       cereal: new Obj(),
     };
-    this.objPool.pBar.addImg(`Images/${_pBarImg}`);
-    this.objPool.pFill.addImg(`Images/${_pFillImg}`);
-    this.objPool.pLogo.addImg(`Images/${_pLogoImg}`);
-    this.objPool.cafeteria.addImg(`Images/${_cafeteriaImg}`);
-    this.objPool.shareStation.addImg(`Images/${_shareStationImg}`);
-    this.objPool.tray.addImg(`Images/${_trayImg}`);
-    this.objPool.apple.addImg(`Images/${_appleImg}`);
-    this.objPool.banana.addImg(`Images/${_bananaImg}`);
-    this.objPool.carrots.addImg(`Images/${_carrotsImg}`);
-    this.objPool.celery.addImg(`Images/${_celeryImg}`);
-    this.objPool.orange.addImg(`Images/${_orangeImg}`);
-    this.objPool.milk.addImg(`Images/${_milkImg}`);
-    this.objPool.chocolate.addImg(`Images/${_chocolateImg}`);
-    this.objPool.cheeseStick.addImg(`Images/${_cheeseStickImg}`);
-    this.objPool.creamCheese.addImg(`Images/${_creamcheeseImg}`);
-    this.objPool.yogurt.addImg(`Images/${_yogurtImg}`);
-    this.objPool.burrito.addImg(`Images/${_burritoImg}`);
-    this.objPool.pizza.addImg(`Images/${_pizzaImg}`);
-    this.objPool.corndog.addImg(`Images/${_corndogImg}`);
-    this.objPool.burgers.addImg(`Images/${_burgersImg}`);
-    this.objPool.sandwich.addImg(`Images/${_sandwichImg}`);
-    this.objPool.bagel.addImg(`Images/${_bagelImg}`);
-    this.objPool.chips.addImg(`Images/${_chipsImg}`);
-    this.objPool.cereal.addImg(`Images/${_cerealImg}`);
+    this.objPool.pBar.addImg("Images/pBar.png");
+    this.objPool.pFill.addImg("Images/pFill.png");
+    this.objPool.pLogo.addImg("Images/pLogo.png");
+    this.objPool.cafeteria.addImg("Images/cafeteria.png");
+    this.objPool.shareStation.addImg("Images/shareStation.png");
+    this.objPool.tray.addImg("Images/tray.png");
+    this.objPool.apple.addImg("Images/apple.png");
+    this.objPool.banana.addImg("Images/banana.png");
+    this.objPool.carrots.addImg("Images/carrots.png");
+    this.objPool.celery.addImg("Images/celery.png");
+    this.objPool.orange.addImg("Images/orange.png");
+    this.objPool.milk.addImg("Images/milk.png");
+    this.objPool.chocolate.addImg("Images/chocolate.png");
+    this.objPool.cheeseStick.addImg("Images/cheeseStick.png");
+    this.objPool.creamCheese.addImg("Images/creamcheese.png");
+    this.objPool.yogurt.addImg("Images/yogurt.png");
+    this.objPool.burrito.addImg("Images/burrito.png");
+    this.objPool.pizza.addImg("Images/pizza.png");
+    this.objPool.corndog.addImg("Images/corndog.png");
+    this.objPool.burgers.addImg("Images/burgers.png");
+    this.objPool.sandwich.addImg("Images/sandwich.png");
+    this.objPool.bagel.addImg("Images/bagel.png");
+    this.objPool.chips.addImg("Images/chips.png");
+    this.objPool.cereal.addImg("Images/cereal.png");
 
     // ADD OBJECT.SPRITE for OBJ WITH IMAGES
     var filePromises = [];
@@ -383,7 +382,6 @@ class ShareAndTake extends Game {
     this.staticList.push(otherFoodBin);
     this.staticList.push(hotFoodBin);
     // ======== Set Up Tags   and add to item pool===========
-    this.zoomInList.push(this.objPool.shareStation);
     this.objPool.apple.changeTag(TAG.SHARE_FV);
     this.itemPool.push(this.objPool.apple);
     this.objPool.banana.changeTag(TAG.SHARE_FV);

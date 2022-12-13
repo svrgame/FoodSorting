@@ -1,10 +1,10 @@
 
 // round combining both share and take and waste rounds together
-class VShareAndWaste extends Game{
-  constructor() {super(); }
-  load(){
+class VShareAndWaste extends Game {
+  constructor() { super(); }
+  load() {
     this.barMax = 21;
-    this.objPool ={
+    this.objPool = {
       //progressBar 
       pBar: new Obj(),
       pFill: new Obj(),
@@ -57,47 +57,47 @@ class VShareAndWaste extends Game{
       wpizza: new Obj(),
       plastic: new Obj(),
     };
-    this.objPool.pBar.addImg(`Images/{__${_pBarImg}`);
-    this.objPool.pFill.addImg(`Images/{__${_pFillImg}`);
-    this.objPool.pLogo.addImg(`Images/{__${_pLogoImg}`);
-    this.objPool.cafeteria.addImg(`Images/{__${_mobile_schoolCafeImg}`);
-    this.objPool.shareStation.addImg(`Images/{__${_shareStationImg}`);
-    this.objPool.wasteStation.addImg(`Images/{__${_wasteStationImg}`);
-    this.objPool.tray.addImg(`Images/{__${_trayImg}`);
-    this.objPool.apple.addImg(`Images/{__${_appleImg}`);
-    this.objPool.banana.addImg(`Images/{__${_bananaImg}`);
-    this.objPool.carrots.addImg(`Images/{__${_carrotsImg}`);
-    this.objPool.celery.addImg(`Images/{__${_celeryImg}`);
-    this.objPool.orange.addImg(`Images/{__${_orangeImg}`);
-    this.objPool.milk.addImg(`Images/{__${_milkImg}`);
-    this.objPool.chocolate.addImg(`Images/{__${_chocolateImg}`);
-    this.objPool.cheeseStick.addImg(`Images/{__${_cheeseStickImg}`);
-    this.objPool.creamCheese.addImg(`Images/{__${_creamcheeseImg}`);
-    this.objPool.yogurt.addImg(`Images/{__${_yogurtImg}`);
-    this.objPool.burrito.addImg(`Images/{__${_burritoImg}`);
-    this.objPool.pizza.addImg(`Images/{__${_pizzaImg}`);
-    this.objPool.corndog.addImg(`Images/{__${_corndogImg}`);
-    this.objPool.burgers.addImg(`Images/{__${_burgersImg}`);
-    this.objPool.sandwich.addImg(`Images/{__${_sandwichImg}`);
-    this.objPool.bagel.addImg(`Images/{__${_bagelImg}`);
-    this.objPool.chips.addImg(`Images/{__${_chipsImg}`);
-    this.objPool.cereal.addImg(`Images/{__${_cerealImg}`);
+    this.objPool.pBar.addImg("Images/pBar.png");
+    this.objPool.pFill.addImg("Images/pFill.png");
+    this.objPool.pLogo.addImg("Images/pLogo.png");
+    this.objPool.cafeteria.addImg("Images/VschoolCafe.png");
+    this.objPool.shareStation.addImg("Images/shareStation.png");
+    this.objPool.wasteStation.addImg("Images/wasteStation.png");
+    this.objPool.tray.addImg("Images/tray.png");
+    this.objPool.apple.addImg("Images/apple.png");
+    this.objPool.banana.addImg("Images/banana.png");
+    this.objPool.carrots.addImg("Images/carrots.png");
+    this.objPool.celery.addImg("Images/celery.png");
+    this.objPool.orange.addImg("Images/orange.png");
+    this.objPool.milk.addImg("Images/milk.png");
+    this.objPool.chocolate.addImg("Images/chocolate.png");
+    this.objPool.cheeseStick.addImg("Images/cheeseStick.png");
+    this.objPool.creamCheese.addImg("Images/creamcheese.png");
+    this.objPool.yogurt.addImg("Images/yogurt.png");
+    this.objPool.burrito.addImg("Images/burrito.png");
+    this.objPool.pizza.addImg("Images/pizza.png");
+    this.objPool.corndog.addImg("Images/corndog.png");
+    this.objPool.burgers.addImg("Images/burgers.png");
+    this.objPool.sandwich.addImg("Images/sandwich.png");
+    this.objPool.bagel.addImg("Images/bagel.png");
+    this.objPool.chips.addImg("Images/chips.png");
+    this.objPool.cereal.addImg("Images/cereal.png");
 
-    this.objPool.wapple.addImg(`Images/{__${_e_appleImg}`);
-    this.objPool.wbanana.addImg(`Images/{__${_e_bananaImg}`);
-    this.objPool.wchipBag.addImg(`Images/{__${_e_chipsImg}`);
-    this.objPool.milkCarton.addImg(`Images/{__${_e_milkImg}`);
-    this.objPool.milkPuddle.addImg(`Images/{__${_e_milkPImg}`);
-    this.objPool.chCarton.addImg(`Images/{__${_e_chMilkImg}`);
-    this.objPool.chPuddle.addImg(`Images/{__${_e_chMilkPImg}`);
-    this.objPool.straw.addImg(`Images/{__${_strawImg}`);
-    this.objPool.wburrito.addImg(`Images/{__${_e_burritoImg}`);
-    this.objPool.orangePeel.addImg(`Images/{__${_orangePeelImg}`);
-    this.objPool.spork.addImg(`Images/{__${_sporkImg}`);
-    this.objPool.napkin.addImg(`Images/{__${_napkinImg}`);
-    this.objPool.pizzaIn.addImg(`Images/{__${_e_pizza_cImg}`);
-    this.objPool.wpizza.addImg(`Images/{__${_e_pizzaImg}`);
-    this.objPool.plastic.addImg(`Images/{__${_plasticImg}`);
+    this.objPool.wapple.addImg("Images/e_apple.png");
+    this.objPool.wbanana.addImg("Images/e_banana.png");
+    this.objPool.wchipBag.addImg("Images/e_chips.png");
+    this.objPool.milkCarton.addImg("Images/e_milk.png");
+    this.objPool.milkPuddle.addImg("Images/e_milkP.png");
+    this.objPool.chCarton.addImg("Images/e_chMilk.png");
+    this.objPool.chPuddle.addImg("Images/e_chMilkP.png");
+    this.objPool.straw.addImg("Images/straw.png");
+    this.objPool.wburrito.addImg("Images/e_burrito.png");
+    this.objPool.orangePeel.addImg("Images/orangePeel.png");
+    this.objPool.spork.addImg("Images/spork.png");
+    this.objPool.napkin.addImg("Images/napkin.png");
+    this.objPool.pizzaIn.addImg("Images/e_pizza_c.png");
+    this.objPool.wpizza.addImg("Images/e_pizza.png");
+    this.objPool.plastic.addImg("Images/plastic.png");
 
     // ADD OBJECT.SPRITE for OBJ WITH IMAGES
     var filePromises = [];
@@ -143,7 +143,7 @@ class VShareAndWaste extends Game{
     filePromises.push(this.objPool.plastic.sprite);
     Promise.all(filePromises).then(this.setUp());
   }
-  setUp(){
+  setUp() {
     //========================= CREATE TARGET OBJ ============
     var coldBin = new Obj();
     coldBin.changeTag(TAG.SHARE_COLD);
@@ -360,10 +360,10 @@ class VShareAndWaste extends Game{
 }
 
 // round combining both share and take and waste rounds together
-class ShareAndWaste extends Game{
-  constructor() {super(); }
-  load(){
-    this.objPool ={
+class ShareAndWaste extends Game {
+  constructor() { super(); }
+  load() {
+    this.objPool = {
       //progressBar 
       pBar: new Obj(),
       pFill: new Obj(),
@@ -416,47 +416,47 @@ class ShareAndWaste extends Game{
       wpizza: new Obj(),
       plastic: new Obj(),
     };
-    this.objPool.pBar.addImg(`Images/{__${_pBarImg}`);
-    this.objPool.pFill.addImg(`Images/{__${_pFillImg}`);
-    this.objPool.pLogo.addImg(`Images/{__${_pLogoImg}`);
-    this.objPool.cafeteria.addImg(`Images/{__${_schoolCafeImg}`);
-    this.objPool.shareStation.addImg(`Images/{__${_shareStationImg}`);
-    this.objPool.wasteStation.addImg(`Images/{__${_wasteStationImg}`);
-    this.objPool.tray.addImg(`Images/{__${_trayImg}`);
-    this.objPool.apple.addImg(`Images/{__${_appleImg}`);
-    this.objPool.banana.addImg(`Images/{__${_bananaImg}`);
-    this.objPool.carrots.addImg(`Images/{__${_carrotsImg}`);
-    this.objPool.celery.addImg(`Images/{__${_celeryImg}`);
-    this.objPool.orange.addImg(`Images/{__${_orangeImg}`);
-    this.objPool.milk.addImg(`Images/{__${_milkImg}`);
-    this.objPool.chocolate.addImg(`Images/{__${_chocolateImg}`);
-    this.objPool.cheeseStick.addImg(`Images/{__${_cheeseStickImg}`);
-    this.objPool.creamCheese.addImg(`Images/{__${_creamcheeseImg}`);
-    this.objPool.yogurt.addImg(`Images/{__${_yogurtImg}`);
-    this.objPool.burrito.addImg(`Images/{__${_burritoImg}`);
-    this.objPool.pizza.addImg(`Images/{__${_pizzaImg}`);
-    this.objPool.corndog.addImg(`Images/{__${_corndogImg}`);
-    this.objPool.burgers.addImg(`Images/{__${_burgersImg}`);
-    this.objPool.sandwich.addImg(`Images/{__${_sandwichImg}`);
-    this.objPool.bagel.addImg(`Images/{__${_bagelImg}`);
-    this.objPool.chips.addImg(`Images/{__${_chipsImg}`);
-    this.objPool.cereal.addImg(`Images/{__${_cerealImg}`);
+    this.objPool.pBar.addImg("Images/pBar.png");
+    this.objPool.pFill.addImg("Images/pFill.png");
+    this.objPool.pLogo.addImg("Images/pLogo.png");
+    this.objPool.cafeteria.addImg("Images/schoolCafe.png");
+    this.objPool.shareStation.addImg("Images/shareStation.png");
+    this.objPool.wasteStation.addImg("Images/wasteStation.png");
+    this.objPool.tray.addImg("Images/tray.png");
+    this.objPool.apple.addImg("Images/apple.png");
+    this.objPool.banana.addImg("Images/banana.png");
+    this.objPool.carrots.addImg("Images/carrots.png");
+    this.objPool.celery.addImg("Images/celery.png");
+    this.objPool.orange.addImg("Images/orange.png");
+    this.objPool.milk.addImg("Images/milk.png");
+    this.objPool.chocolate.addImg("Images/chocolate.png");
+    this.objPool.cheeseStick.addImg("Images/cheeseStick.png");
+    this.objPool.creamCheese.addImg("Images/creamcheese.png");
+    this.objPool.yogurt.addImg("Images/yogurt.png");
+    this.objPool.burrito.addImg("Images/burrito.png");
+    this.objPool.pizza.addImg("Images/pizza.png");
+    this.objPool.corndog.addImg("Images/corndog.png");
+    this.objPool.burgers.addImg("Images/burgers.png");
+    this.objPool.sandwich.addImg("Images/sandwich.png");
+    this.objPool.bagel.addImg("Images/bagel.png");
+    this.objPool.chips.addImg("Images/chips.png");
+    this.objPool.cereal.addImg("Images/cereal.png");
 
-    this.objPool.wapple.addImg(`Images/{__${_e_appleImg}`);
-    this.objPool.wbanana.addImg(`Images/{__${_e_bananaImg}`);
-    this.objPool.wchipBag.addImg(`Images/{__${_e_chipsImg}`);
-    this.objPool.milkCarton.addImg(`Images/{__${_e_milkImg}`);
-    this.objPool.milkPuddle.addImg(`Images/{__${_e_milkPImg}`);
-    this.objPool.chCarton.addImg(`Images/{__${_e_chMilkImg}`);
-    this.objPool.chPuddle.addImg(`Images/{__${_e_chMilkPImg}`);
-    this.objPool.straw.addImg(`Images/{__${_strawImg}`);
-    this.objPool.wburrito.addImg(`Images/{__${_e_burritoImg}`);
-    this.objPool.orangePeel.addImg(`Images/{__${_orangePeelImg}`);
-    this.objPool.spork.addImg(`Images/{__${_sporkImg}`);
-    this.objPool.napkin.addImg(`Images/{__${_napkinImg}`);
-    this.objPool.pizzaIn.addImg(`Images/{__${_e_pizza_cImg}`);
-    this.objPool.wpizza.addImg(`Images/{__${_e_pizzaImg}`);
-    this.objPool.plastic.addImg(`Images/{__${_plasticImg}`);
+    this.objPool.wapple.addImg("Images/e_apple.png");
+    this.objPool.wbanana.addImg("Images/e_banana.png");
+    this.objPool.wchipBag.addImg("Images/e_chips.png");
+    this.objPool.milkCarton.addImg("Images/e_milk.png");
+    this.objPool.milkPuddle.addImg("Images/e_milkP.png");
+    this.objPool.chCarton.addImg("Images/e_chMilk.png");
+    this.objPool.chPuddle.addImg("Images/e_chMilkP.png");
+    this.objPool.straw.addImg("Images/straw.png");
+    this.objPool.wburrito.addImg("Images/e_burrito.png");
+    this.objPool.orangePeel.addImg("Images/orangePeel.png");
+    this.objPool.spork.addImg("Images/spork.png");
+    this.objPool.napkin.addImg("Images/napkin.png");
+    this.objPool.pizzaIn.addImg("Images/e_pizza_c.png");
+    this.objPool.wpizza.addImg("Images/e_pizza.png");
+    this.objPool.plastic.addImg("Images/plastic.png");
 
     // ADD OBJECT.SPRITE for OBJ WITH IMAGES
     var filePromises = [];
@@ -502,7 +502,7 @@ class ShareAndWaste extends Game{
     filePromises.push(this.objPool.plastic.sprite);
     Promise.all(filePromises).then(this.setUp());
   }
-  setUp(){
+  setUp() {
     //========================= CREATE TARGET OBJ ============
     var coldBin = new Obj();
     coldBin.changeTag(TAG.SHARE_COLD);

@@ -12,7 +12,7 @@ var bgDuration = (loadDelay / 1000) - 0.5
 // holds the load screen image < from spritePool 
 var loadScreen = null;
 // color to clear the screen when rendering 
-const clearColor = new Color(207, 159, 255);
+const clearColor = new Color(25, 159, 255);
 var screen = null;
 var game = null;
 var currentGame = 0;

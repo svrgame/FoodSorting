@@ -7,7 +7,7 @@ var appInput = null;
 var sound = true;//use to turn all sound on or off
 
 // time in between rounds
-const loadDelay = 10000/10; // 10 seconds;
+const loadDelay = 10000; // 10 seconds;
 var bgDuration = (loadDelay / 1000) - 0.5
 // holds the load screen image < from spritePool 
 var loadScreen = null;
@@ -15,7 +15,7 @@ var loadScreen = null;
 const clearColor = new Color(25, 159, 255);
 var screen = null;
 var game = null;
-var currentGame = 1;
+var currentGame = 0;
 
 //global objects 
 var spritePool = {

@@ -12,10 +12,14 @@ var bgDuration = (loadDelay / 1000) - 0.5
 // holds the load screen image < from spritePool 
 var loadScreen = null;
 // color to clear the screen when rendering 
-const clearColor = new Color(25, 159, 255);
+const clearColor = new Color(207, 159, 255);
 var screen = null;
 var game = null;
 var currentGame = 0;
+<<<<<<< HEAD
+=======
+
+>>>>>>> parent of f7c384c ( updating images is easier now)
 
 //global objects 
 var spritePool = {
@@ -39,12 +43,12 @@ var audioFile = {
 window.onload = window['loadAssets'];
 function loadAssets() {
   aspectRatio = (window.innerWidth > window.innerHeight) ? horizontalRatio : verticalRatio;
-  spritePool.shareLoad.addImg(`Images/${_loadShareImg}`);
-  spritePool.vShareLoad.addImg(`Images/${_mobile_loadShareImg}`);
-  spritePool.wasteLoad.addImg(`Images/${_loadWasteImg}`);
-  spritePool.vWasteLoad.addImg(`Images/${_mobile_loadWasteImg}`);
-  spritePool.sortLoad.addImg(`Images/${_loadSortImg}`);
-  spritePool.vSortLoad.addImg(`Images/${_mobile_loadSortImg}`);
+  spritePool.shareLoad.addImg("Images/loadShare.png");
+  spritePool.vShareLoad.addImg("Images/VloadShare.png");
+  spritePool.wasteLoad.addImg("Images/loadWaste.png");
+  spritePool.vWasteLoad.addImg("Images/VloadWaste.png");
+  spritePool.sortLoad.addImg("Images/loadSort.png");
+  spritePool.vSortLoad.addImg("Images/VloadSort.png");
 
   audioFile.correct = new Audio('Audio/Right.mp3');
   audioFile.wrong = new Audio('Audio/Wrong.mp3');
@@ -167,7 +171,7 @@ function handleInput() {
 }
 //Checks if and what the mouse pointer selects 
 function checkCollisions() {
-  if (appInput == null) return
+  if (appInput == null) return;
   var items = game.itemList;
   for (let i = 0; i < items.length; i++) {
     if (items[i].collided(appInput.mousePosition)) {

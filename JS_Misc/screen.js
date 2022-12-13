@@ -59,6 +59,8 @@ class Screen {
       for (let i = 0; i < this.canvas.width; i++)
         this.setPixelColor(i, j, color);
   }
+
+
   drawPoint(point, color) {
     var p = vMath(this.screenBasis, '*', point);
     this.setPixelColor(p.x, p.y, color);

@@ -11,13 +11,10 @@ class Game {
   remainingInSet = 0; //keep track of the remaining items not yet sorted 
   coupledMap = new Map();//track coupled items
 
-  zoomInList = [];
-
   constructor() {
     if (this.constructor == Game) {
       throw new Error("Abstract classes can't be instantiated.");
     }
-    this.zoomInList = [];
     this.bGameOver = false;
     this.objPool = null;
     this.itemPool = [];

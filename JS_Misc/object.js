@@ -8,7 +8,7 @@ const TAG = {
   SHARE_HOT: 4,
   TRASH: 5,
   SCRAP: 6,
-  MILK: 7,
+  MILK: 7
 };
 // Button tags to determine what button was pressed / if item is coupled 
 const B_TYPE = {

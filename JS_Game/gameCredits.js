@@ -5,8 +5,8 @@ class CreditsG extends Game {
       creditsPage: new Obj(),
       menuBttn: new Obj(),
     }
-    this.objPool.creditsPage.addImg("Images/creditsPage.png");
-    this.objPool.menuBttn.addImg("Images/bttnMenu.png");
+    this.objPool.creditsPage.addImg(`Images/${_creditsPageImg}`);
+    this.objPool.menuBttn.addImg(`Images/${_bttnMenuImg}`);
     var filePromises = [];
     filePromises.push(this.objPool.creditsPage.sprite);
     filePromises.push(this.objPool.menuBttn.sprite);
@@ -35,8 +35,8 @@ class VCreditsG extends Game {
       creditsPage: new Obj(),
       menuBttn: new Obj(),
     }
-    this.objPool.creditsPage.addImg("Images/VcreditsPage.png");
-    this.objPool.menuBttn.addImg("Images/bttnMenu.png");
+    this.objPool.creditsPage.addImg(`Images/${_mobile_creditsPageImg}`);
+    this.objPool.menuBttn.addImg(`Images/${_bttnMenuImg}`);
     var filePromises = [];
     filePromises.push(this.objPool.creditsPage.sprite);
     filePromises.push(this.objPool.menuBttn.sprite);

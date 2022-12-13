@@ -159,11 +159,11 @@ class CertGame extends Game {
       background: new Obj(),
     }
     // add images
-    this.objPool.certificate.addImg("Images/certificate.png");
-    this.objPool.printButton.addImg("Images/bttnPrint.png");
-    this.objPool.menuButton.addImg("Images/bttnMenu.png");
-    //this.objPool.mascot.addImg("Images/mascot.png");
-    //this.objPool.background.addImg("Images/certBackground.png");
+    this.objPool.certificate.addImg(`Images/${_certificateImg}`);
+    this.objPool.printButton.addImg(`Images/${_bttnPrintImg}`);
+    this.objPool.menuButton.addImg(`Images/${_bttnMenuImg}`);
+    //this.objPool.mascot.addImg(`Images/${_mascotImg}`);
+    //this.objPool.background.addImg(`Images/${_certBackgroundImg}`);
 
     var filePromises = [];
     // promise sprites to be loaded 

@@ -6,9 +6,9 @@ class Menu extends Game {
       creditBttn: new Obj(),
       background: new Obj(),
     }
-    this.objPool.playBttn.addImg("Images/bttnPlay.png");
-    this.objPool.creditBttn.addImg("Images/bttnCredits.png");
-    this.objPool.background.addImg("Images/menuBackground.png");
+    this.objPool.playBttn.addImg(`Images/${_bttnPlayImg}`);
+    this.objPool.creditBttn.addImg(`Images/${_bttnCreditsImg}`);
+    this.objPool.background.addImg(`Images/${_menuBackgroundImg}`);
 
     var filePromises = [];
     filePromises.push(this.objPool.playBttn.sprite);
@@ -48,9 +48,9 @@ class VMenu extends Game {
       creditBttn: new Obj(),
       background: new Obj(),
     }
-    this.objPool.playBttn.addImg("Images/bttnPlay.png");
-    this.objPool.creditBttn.addImg("Images/bttnCredits.png");
-    this.objPool.background.addImg("Images/VmenuBackground.png");
+    this.objPool.playBttn.addImg(`Images/${_bttnPlayImg}`);
+    this.objPool.creditBttn.addImg(`Images/${_bttnCreditsImg}`);
+    this.objPool.background.addImg(`Images/${_mobile_menuBackgroundImg}`);
 
     var filePromises = [];
     filePromises.push(this.objPool.playBttn.sprite);

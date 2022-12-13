@@ -40,11 +40,11 @@ window.onload = window['loadAssets'];
 function loadAssets() {
   aspectRatio = (window.innerWidth > window.innerHeight) ? horizontalRatio : verticalRatio;
   spritePool.shareLoad.addImg(`Images/${_loadShareImg}`);
-  spritePool.vShareLoad.addImg("Images/VloadShare.png");
-  spritePool.wasteLoad.addImg("Images/loadWaste.png");
-  spritePool.vWasteLoad.addImg("Images/VloadWaste.png");
-  spritePool.sortLoad.addImg("Images/loadSort.png");
-  spritePool.vSortLoad.addImg("Images/VloadSort.png");
+  spritePool.vShareLoad.addImg(`Images/${_mobile_loadShareImg}`);
+  spritePool.wasteLoad.addImg(`Images/${_loadWasteImg}`);
+  spritePool.vWasteLoad.addImg(`Images/${_mobile_loadWasteImg}`);
+  spritePool.sortLoad.addImg(`Images/${_loadSortImg}`);
+  spritePool.vSortLoad.addImg(`Images/${_mobile_loadSortImg}`);
 
   audioFile.correct = new Audio('Audio/Right.mp3');
   audioFile.wrong = new Audio('Audio/Wrong.mp3');

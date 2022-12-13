@@ -1,15 +1,15 @@
 home,body{
   margin:0;
   text-align: center;
-  background-color: lightblue;
+  background-color: rgb(25, 159, 255);
   cursor: url("Images/pointer.png"), auto;
 }
 canvas{
   margin: 0;
   position: absolute;
-  left: 0%;
-  top: 0;
-  border: 2px solid red;
+  left: 1%;
+  top: 10px;
+  border: 1px solid black;
 }
 
 #contain{

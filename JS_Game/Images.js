@@ -1,8 +1,8 @@
 // ASSUMES THE FILE WILL BE IN THE FOLDER : Images/ 
 
 // BIN LABEL IMAGES 
-const  _shareStationImg = 'shareStation.png'; 
-const  _shareStation2Img = 'shareStation2.png'; 
+const  _shareStationImg = 'shareStation2.png'; 
+const  _shareStation2Img = 'shareStation.png'; 
 //BACKGROUNDS 
 const  _menuBackgroundImg = 'menuBackground.png'; 
 const  _backWallImg = 'backWall.png'; 

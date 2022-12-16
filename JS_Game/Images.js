@@ -6,8 +6,8 @@ const  _shareStation2Img = 'shareStation.png';
 //BACKGROUNDS 
 const  _menuBackgroundImg = 'menuBackground.png'; 
 const  _backWallImg = 'backWall.png'; 
-const  _schoolCafeImg = 'schoolCafe.png'; 
-const  _cafeteriaImg = 'cafeteria.png'; 
+const  _schoolCafeImg = 'SchoolCafe2.png'; 
+const  _cafeteriaImg = 'Cafeteria2.png'; 
 const  _creditsPageImg = 'creditsPage.png'; 
 const  _loadShareImg = 'loadShare.png'; 
 const  _loadShare3Img = 'loadShare3.png'; 
